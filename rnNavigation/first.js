@@ -12,7 +12,7 @@ export default class Home extends React.Component {
         return (
             <View style={styles.container}>
                 <TouchableOpacity onPress={() => this.props.navigation.navigate('Todo')}>
-                    <Text style={{fontSize:30, fontWeight:'bold',color:'white'}}>Todo List(test)</Text>
+                    <Text style={{fontSize:30, fontWeight:'bold',color:'white'}}>Todo List(dohwan)</Text>
                 </TouchableOpacity>
 
             </View>
