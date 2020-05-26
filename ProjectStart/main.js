@@ -12,6 +12,9 @@ export default class login extends React.Component {
     render() {
         return (
             <View style={styles.container}>
+                <Text style = {{fontSize : 20}}>
+                    MAIN PAGE
+                </Text>
                 <TouchableOpacity style = {{marginTop : 20}} onPress={() => this.props.navigation.navigate('TodoList')}>
                     <Text style = {{fontSize : 20}}>
                         TodoList(Made by dohwan)

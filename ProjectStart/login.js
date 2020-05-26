@@ -47,9 +47,21 @@ export default class login extends React.Component {
         console.log('asd')
         var userID = this.state.textID
         var userPW = this.state.textPW
-        console.log(userID)
-        console.log(userPW)
-        this.props.navigation.navigate('Main')
+        if(userID == null || userPW == null)
+        {
+            console.log("nullExcepion")
+        }
+        else if(userID == 'test' && userPW == '1111')
+        {
+            console.log(userID)
+            console.log(userPW)
+            this.props.navigation.navigate('Main')
+        }
+        else
+        {
+            console.log("uncorrectID, PW")
+        }
+        // We need AWS service here 
     }
 }
 
