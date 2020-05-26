@@ -10,6 +10,11 @@
             "StackName": "amplify-testdo-mobile-191113",
             "StackId": "arn:aws:cloudformation:us-east-2:431264446285:stack/amplify-testdo-mobile-191113/1391f600-9e70-11ea-b381-02582149edd0",
             "AmplifyAppId": "d3ekqwskhsn8iq"
+        },
+        "categories": {
+            "auth": {
+                "testdoaa72774d": {}
+            }
         }
     }
 }
