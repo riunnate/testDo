@@ -10,6 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/netinfo": "5.9.2",
+    "aws-amplify": "3.0.13",
+    "aws-amplify-react-native": "4.2.0",
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-gesture-handler": "1.6.1",

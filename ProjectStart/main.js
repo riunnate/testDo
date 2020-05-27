@@ -20,6 +20,11 @@ export default class login extends React.Component {
                         TodoList(Made by dohwan)
                     </Text>
                 </TouchableOpacity>
+                <TouchableOpacity style = {{marginTop : 20}} onPress={() => this.props.navigation.navigate('AwsTest')}>
+                    <Text style = {{fontSize : 20}}>
+                        AwsTest(Tutorials)
+                    </Text>
+                </TouchableOpacity>
             </View>
         );
     }
